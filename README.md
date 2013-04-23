@@ -15,13 +15,14 @@ framework, so you're free to architect your code in the way that you want.
 ## Features To Implement
 
 * Improved data formating (price, title, location)
-* Favorite functionlaity stored on client 
-* Emailing directly to the lister
+* Sorting based on price (lowest to highest and vise versa)
+* Favorite functionality stored on client 
+* Emailing directly to the seller
 * Description previewing
 * Image gallery previewing
 * Expand search outside of Rochester
 * Mobile app version
-* Purchase domain
+* Purchase domain and hosting for deployment
 * Social sharing functionality
 
 ## Contributing
