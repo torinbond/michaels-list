@@ -94,31 +94,29 @@ textarea {
    Taken from Bootstrap's Marketing template
    ========================================================================== */
 
-
-/* Main marketing message and sign up button */
 .jumbotron {
-  margin: 30px 0 15px 0;
-  padding: 30px 0;
-  background: #f2f2f2;
-  text-align: center;
+    margin: 30px 0 15px 0;
+    padding: 30px 0;
+    background: #f2f2f2;
+    text-align: center;
 }
 .jumbotron h1 {
-  font-size: 72px;
-  line-height: 1;
+    font-size: 72px;
+    line-height: 1;
 }
 .jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+    font-size: 21px;
+    padding: 14px 24px;
 }
 
 .jumbotron img {
-  width: 85px;
+    width: 85px;
 }
 
 .center {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .results {
@@ -135,9 +133,13 @@ textarea {
     margin-top: 30px;
 }
 
+#SearchField {
+    width: 333px;
+}
+
 .tabbable {
-  margin: 0 auto;
-  width: 800px;
+    margin: 0 auto;
+    width: 800px;
 }
 
 
