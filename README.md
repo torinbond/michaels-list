@@ -5,9 +5,10 @@ search aggregator that makes use of [YQL](http://developer.yahoo.com/yql/console
 data, [AJAX](http://api.jquery.com/jQuery.ajax/) for making calls and populating the page, and 
 [Twitter Bootstrap](http://twitter.github.io/bootstrap/) for UI elements.   
 
-This project is the product of many years of iterative development and combined
-community knowledge. It does not impose a specific development philosophy or
-framework, so you're free to architect your code in the way that you want.
+This is a small side project I'll be hosting here. I got the idea from a web engineering class, 
+when we were discussing about how widely used craigslist is, despite how horrendusly dated their
+website's interface is. When I found out all of their data is accessible through YQL, this idea
+came a long. So feel free to contribute or submit features you would like to see.
 
 * Source: [https://github.com/mpeechatt/michaels-list](https://github.com/mpeechatt/michaels-list)
 * Homepage: [Coming Soon](#)
@@ -29,3 +30,8 @@ framework, so you're free to architect your code in the way that you want.
 
 Anyone and everyone is welcome to contribute. I'd love to see this little project grow,
 and hopefully it will help push Craigslist to update their site's UI =] 
+
+## Disclaimer
+
+I do not, nor do I imply, that I own Craigslist or any of its associated data. This is an open source
+project for educational and non-profit use. 
