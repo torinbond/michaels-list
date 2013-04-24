@@ -33,5 +33,5 @@ and hopefully it will help push Craigslist to update their site's UI =]
 
 ## Disclaimer
 
-I do not, nor do I imply, that I own Craigslist or any of its associated data. This is an open source
+I do not own Craigslist or any of its associated data. This is an open source
 project for educational and non-profit use. 
