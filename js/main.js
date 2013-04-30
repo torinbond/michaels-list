@@ -20,7 +20,6 @@ $(function () {
         query + "%22&format=json&diagnostics=true&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys";
 
         // Play with the YQL console here: http://tinyurl.com/cpen9m6
-
         $.ajax({
             type: 'GET',
             url: url,
@@ -39,14 +38,22 @@ $(function () {
                 } else {
                     for (var i = 0 ; i < data.query.results.RDF.item.length; i++) {
                         // TODO: Format data better, using a thead for price, title and location
-                        $(".results").append('<tr><td><div class="btn-group"><a role="button" class="btn btn-info">' +
+                        $(".results").append('<tr><td><div class="btn-group"><a href="#DescriptionModal" data-toggle="modal" role="button" class="btn btn-info">' +
                             '<i class="icon-zoom-in icon-white"></i></a>' +  
-                            '<a role="button" class="btn btn-warning"><i class="icon-star icon-white">'+
+                            '<a role="button" class="btn btn-warning btn-favorite"><i class="icon-star icon-white">'+
                             '</i></a></div><td><a href="' + 
                             data.query.results.RDF.item[i].source + '" target="_blank">' + 
                             data.query.results.RDF.item[i].title[0] + '</a></td></tr>');
                     };
                 }
+
+                $(".btn-favorite").click(function() {
+                    $(this).addClass("disabled");
+                    $(this).removeClass("btn-warning");
+                    $(this).off('click');
+                });
+
+                // Show table after it has been populated and functionality is bound
                 $(".tabbable").fadeIn('slow');
             },
             failure: function() {
