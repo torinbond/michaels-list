@@ -11,7 +11,7 @@ website's interface is. When I found out all of their data is accessible through
 came a long. So feel free to contribute or submit features you would like to see.
 
 * Source: [https://github.com/mpeechatt/michaels-list](https://github.com/mpeechatt/michaels-list)
-* Homepage: [Coming Soon](#)
+* Homepage: [http://michaelslist.co.nf](http://michaelslist.co.nf)
 
 ## Features To Implement
 
