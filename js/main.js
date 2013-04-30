@@ -34,7 +34,7 @@ $(function () {
                 $("#Loading").hide();
 
                 // TODO: Add proper error handling for when the field is empty
-                if(data.query.results.RDF == null || data.query.results.RDF.item == undefined) {
+                if(data.query.count == 0 || typeof data.query.results.RDF.item == 'undefined') {
                     $(".results").append('<tr><td>No results found</td></tr>');
                 } else {
                     for (var i = 0 ; i < data.query.results.RDF.item.length; i++) {
