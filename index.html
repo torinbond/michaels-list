@@ -22,51 +22,61 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-
-        <!-- Photo gallery modal -->
-        <div id="DescriptionModal" class="modal hide fade">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h3>Photo &amp; Descrption Preview</h3>
-          </div>
-          <div class="modal-body">
-            <p>This functionality is not yet implemented</p>
-          </div>
-          <div class="modal-footer">
-            <a data-dismiss="modal" aria-hidden="true" class="btn">Close</a>
-          </div>
-        </div>
-
-        <div class="jumbotron">
-            <img class="center" style="display: inline-block;" src="img/logo.png" alt="site logo" />
-            <h1>Michael's List</h1>
-            <p class="lead">a simple rochester craigslist search aggregator</p>
-        </div>
-        
-        <div class="form-search center">
-            <input id="SearchField" class="input-large" type="text" placeholder="Search for sales / wanted...">
-            <a class="btn btn-primary btn-search">Search</a>
-        </div>
-
-        <center><img id="Loading" src="img/ajax_loader.gif" alt="loading animation" /></center>
-
-        <div class="tabbable"> <!-- Only required for left/right tabs -->
-          <ul class="nav nav-tabs">
-            <li class="active"><a href="#tab1" data-toggle="tab">Results</a></li>
-            <li><a href="#tab2" data-toggle="tab">Favorites</a></li>
-          </ul>
-          <div class="tab-content">
-            <div class="tab-pane active" id="tab1">
-              <table class="table table-striped results"></table>
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="span8 offset2"> 
+            <!-- Photo gallery modal -->
+            <div id="DescriptionModal" class="modal hide fade">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3>Photo &amp; Descrption Preview</h3>
+              </div>
+              <div class="modal-body">
+                <p>This functionality is not yet implemented</p>
+              </div>
+              <div class="modal-footer">
+                <a data-dismiss="modal" aria-hidden="true" class="btn">Close</a>
+              </div>
             </div>
-            <div class="tab-pane" id="tab2">
-              <table class="table table-striped favorites">
-                <tr><td>This functionality is not yet implemented</td></tr>
-              </table>
+
+            <div class="jumbotron">
+                <img class="center" style="display: inline-block;" src="img/logo.png" alt="site logo" />
+                <h1>Michael's List</h1>
+                <p class="lead">a simple rochester craigslist search aggregator</p>
+            </div>
+            
+            <div class="form-search center">
+                <input id="SearchField" class="input-large" type="text" placeholder="Search for sales / wanted...">
+                <a class="btn btn-primary btn-search">Search</a>
+            </div>
+
+            <center><img id="Loading" src="img/ajax_loader.gif" alt="loading animation" /></center>
+
+            <div class="tabbable"> <!-- Only required for left/right tabs -->
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#tab1" data-toggle="tab">Results</a></li>
+                <li><a href="#tab2" data-toggle="tab">Favorites</a></li>
+                <li><a href="#tab3" data-toggle="tab">History</a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane active" id="tab1">
+                  <table class="table table-striped results"></table>
+                </div>
+                <div class="tab-pane" id="tab2">
+                  <table class="table table-striped favorites">
+                    <tr><td>This functionality is not yet implemented</td></tr>
+                  </table>
+                </div>
+                <div class="tab-pane" id="tab3">
+                  <table class="table table-striped history">
+                    <tr><td>This functionality is not yet implemented</td></tr>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
+      </div>
         <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>

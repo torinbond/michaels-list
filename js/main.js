@@ -41,6 +41,7 @@ $(function () {
                         $(".results").append('<tr><td><div class="btn-group"><a href="#DescriptionModal" data-toggle="modal" role="button" class="btn btn-info">' +
                             '<i class="icon-zoom-in icon-white"></i></a>' +  
                             '<a role="button" class="btn btn-warning btn-favorite"><i class="icon-star icon-white">'+
+                            '</i></a>' + '<a href="mailto:' + '?Subject=' + data.query.results.RDF.item[i].title[0] + '"role="button" class="btn btn-success btn-favorite"><i class="icon-envelope icon-white">'+
                             '</i></a></div><td><a href="' + 
                             data.query.results.RDF.item[i].source + '" target="_blank">' + 
                             data.query.results.RDF.item[i].title[0] + '</a></td></tr>');
